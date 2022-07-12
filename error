@@ -1,0 +1,52 @@
+Deploying on Apache Tomcat or TomEE
+    profile mode: false
+    debug mode: false
+    force redeploy: true
+cd /home/ellaion/Escritorio/servidor/cursadaWeb/bachirDiscs/ComercioBachirDiscs-/bachirDiscs; JAVA_HOME=/app/jdk /app/netbeans/java/maven/bin/mvn -Dnetbeans.deploy=true package
+Scanning for projects...
+                                                                        
+------------------------------------------------------------------------
+Building bachirDiscs 1.0-SNAPSHOT
+------------------------------------------------------------------------
+
+--- maven-dependency-plugin:2.6:copy (default) @ bachirDiscs ---
+
+--- maven-resources-plugin:2.6:resources (default-resources) @ bachirDiscs ---
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory /home/ellaion/Escritorio/servidor/cursadaWeb/bachirDiscs/ComercioBachirDiscs-/bachirDiscs/src/main/resources
+
+--- maven-compiler-plugin:3.1:compile (default-compile) @ bachirDiscs ---
+Nothing to compile - all classes are up to date
+
+--- maven-resources-plugin:2.6:testResources (default-testResources) @ bachirDiscs ---
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory /home/ellaion/Escritorio/servidor/cursadaWeb/bachirDiscs/ComercioBachirDiscs-/bachirDiscs/src/test/resources
+
+--- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ bachirDiscs ---
+No sources to compile
+
+--- maven-surefire-plugin:2.12.4:test (default-test) @ bachirDiscs ---
+
+--- maven-war-plugin:2.3:war (default-war) @ bachirDiscs ---
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.converters.collections.TreeMapConverter (file:/home/ellaion/.m2/repository/com/thoughtworks/xstream/xstream/1.4.3/xstream-1.4.3.jar) to field java.util.TreeMap.comparator
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.converters.collections.TreeMapConverter
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Packaging webapp
+Assembling webapp [bachirDiscs] in [/home/ellaion/Escritorio/servidor/cursadaWeb/bachirDiscs/ComercioBachirDiscs-/bachirDiscs/target/bachirDiscs-1.0-SNAPSHOT]
+Processing war project
+Copying webapp resources [/home/ellaion/Escritorio/servidor/cursadaWeb/bachirDiscs/ComercioBachirDiscs-/bachirDiscs/src/main/webapp]
+Webapp assembled in [223 msecs]
+Building war: /home/ellaion/Escritorio/servidor/cursadaWeb/bachirDiscs/ComercioBachirDiscs-/bachirDiscs/target/bachirDiscs-1.0-SNAPSHOT.war
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time: 15.503 s
+Finished at: 2022-07-12T11:54:23-03:00
+Final Memory: 13M/31M
+------------------------------------------------------------------------
+Deploying on Apache Tomcat or TomEE
+    profile mode: false
+    debug mode: false
+    force redeploy: true
