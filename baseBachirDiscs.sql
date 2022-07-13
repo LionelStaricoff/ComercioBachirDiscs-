@@ -15,7 +15,7 @@ CREATE TABLE productos (
      nombre_producto VARCHAR (40) NOT NULL
 );
 
-drop table pedidos;
+SHOW variables like "%version%";
 
 CREATE TABLE pedidos (
      id_pedidos INTEGER PRIMARY KEY AUTO_INCREMENT,
