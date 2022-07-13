@@ -2,14 +2,15 @@ Deploying on Apache Tomcat or TomEE
     profile mode: false
     debug mode: false
     force redeploy: true
+In-place deployment at /home/ellaion/Escritorio/servidor/cursadaWeb/bachirDiscs/ComercioBachirDiscs-/bachirDiscs/target/bachirDiscs-1.0-SNAPSHOT
+deploy?config=file%3A%2Ftmp%2Fcontext4436609082877936064.xml&path=/bachirDiscs
+FALLO - No pude desplegar la aplicación en ruta de contexto [/bachirDiscs]
 cd /home/ellaion/Escritorio/servidor/cursadaWeb/bachirDiscs/ComercioBachirDiscs-/bachirDiscs; JAVA_HOME=/app/jdk /app/netbeans/java/maven/bin/mvn -Dnetbeans.deploy=true package
 Scanning for projects...
                                                                         
 ------------------------------------------------------------------------
 Building bachirDiscs 1.0-SNAPSHOT
 ------------------------------------------------------------------------
-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
-staricofflionel@gmail.com
 
 --- maven-dependency-plugin:2.6:copy (default) @ bachirDiscs ---
 
@@ -39,16 +40,21 @@ Packaging webapp
 Assembling webapp [bachirDiscs] in [/home/ellaion/Escritorio/servidor/cursadaWeb/bachirDiscs/ComercioBachirDiscs-/bachirDiscs/target/bachirDiscs-1.0-SNAPSHOT]
 Processing war project
 Copying webapp resources [/home/ellaion/Escritorio/servidor/cursadaWeb/bachirDiscs/ComercioBachirDiscs-/bachirDiscs/src/main/webapp]
-Webapp assembled in [223 msecs]
+Webapp assembled in [214 msecs]
 Building war: /home/ellaion/Escritorio/servidor/cursadaWeb/bachirDiscs/ComercioBachirDiscs-/bachirDiscs/target/bachirDiscs-1.0-SNAPSHOT.war
 ------------------------------------------------------------------------
 BUILD SUCCESS
 ------------------------------------------------------------------------
-Total time: 15.503 s
-Finished at: 2022-07-12T11:54:23-03:00
-Final Memory: 13M/31M
+Total time: 21.191 s
+Finished at: 2022-07-13T16:11:48-03:00
+Final Memory: 12M/30M
 ------------------------------------------------------------------------
+
+
 Deploying on Apache Tomcat or TomEE
     profile mode: false
     debug mode: false
     force redeploy: true
+In-place deployment at /home/ellaion/Escritorio/servidor/cursadaWeb/bachirDiscs/ComercioBachirDiscs-/bachirDiscs/target/bachirDiscs-1.0-SNAPSHOT
+deploy?config=file%3A%2Ftmp%2Fcontext13876855569111929901.xml&path=/bachirDiscs
+FALLO - No pude desplegar la aplicación en ruta de contexto [/bachirDiscs]
