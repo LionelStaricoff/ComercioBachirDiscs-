@@ -22,7 +22,8 @@ git clone git@direccion
 git fetch                                        (descarga el historial de cambios desde github)
 git pull origin main                   (descarga y actualiza los archivos desde el remoto a git, luego de actualizar con fetch)
 
-
+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
+staricofflionel@gmail.com
 
 
 
